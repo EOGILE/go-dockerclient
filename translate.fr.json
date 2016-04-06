@@ -10,5 +10,31 @@
     "modify": "Modiiiiiiiiiiiifier",
     "resources": {
         "account": "compte"
+    },
+    "app": {
+        "name": "Liste de tâches",
+        "login": {
+            "text": "Saisissez votre nom d'utilisateur et mot de passe afin de vous authentifier",
+            "message": {
+                "success": "Connexion réussie!\nBienvenue %s",
+                "error": ""
+            },
+            "password": {
+                "forget": "Mot de passe oublié",
+                "reset": ""
+            },
+            "user": "Nom d'utilisateur",
+            "pass": "Mot de passe"
+        },
+        "register": {
+            "text": "",
+            "message": {
+                "success": "",
+                "error": ""
+            }
+        },
+        "menu": {
+            "terms": ""
+        }
     }
 }
