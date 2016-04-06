@@ -6,27 +6,41 @@ msgstr ""
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: translate_test\n"
 "Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: 
+#, fuzzy
 msgctxt "permissions.account"
 msgid "create"
 msgstr "Créer ou modifier"
 
 #: 
+#, fuzzy
 msgctxt "permissions"
 msgid "create"
 msgstr "Créer"
 
 #: 
+#, fuzzy
 msgctxt "permissions"
 msgid "modify"
 msgstr "Modifier"
 
 #: 
+#, fuzzy
 msgid "create"
 msgstr "Créééééeer"
 
 #: 
+#, fuzzy
 msgid "modify"
 msgstr "Modiiiiiiiiiiiifier"
+
+#: 
+#, fuzzy
+msgctxt "resources"
+msgid "account"
+msgid_plural "accounts"
+msgstr[0] "compte"
+msgstr[1] "comptes"
 
