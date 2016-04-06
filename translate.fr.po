@@ -44,3 +44,64 @@ msgid_plural "accounts"
 msgstr[0] "compte"
 msgstr[1] "comptes"
 
+#: 
+msgctxt "\"app\""
+msgid "name"
+msgstr "Liste de tâches"
+
+#: 
+msgctxt "\"app\".\"login\""
+msgid "text"
+msgstr "Saisissez votre nom d'utilisateur et mot de passe afin de vous authentifier"
+
+#: 
+msgctxt "\"app\".\"login\".\"message\""
+msgid "success"
+msgstr "Connexion réussie!\n"
+"Bienvenue %s"
+
+#: 
+msgctxt "\"app\".\"login\".\"message\""
+msgid "error"
+msgstr ""
+
+#: 
+msgctxt "\"app\".\"login\".\"password\""
+msgid "forget"
+msgstr "Mot de passe oublié"
+
+#: 
+msgctxt "\"app\".\"login\".\"password\""
+msgid "reset"
+msgstr ""
+
+#: 
+msgctxt "\"app\".\"login\""
+msgid "user"
+msgstr "Nom d'utilisateur"
+
+#: 
+msgctxt "\"app\".\"login\""
+msgid "pass"
+msgstr "Mot de passe"
+
+#: 
+msgctxt "\"app\".\"register\""
+msgid "text"
+msgstr ""
+
+#: 
+msgctxt "\"app\".\"register\".\"message\""
+msgid "success"
+msgstr ""
+
+#: 
+msgctxt "\"app\".\"register\".\"message\""
+msgid "error"
+msgstr ""
+
+#: 
+msgctxt "\"app\".\"menu\""
+msgid "terms"
+msgstr ""
+
