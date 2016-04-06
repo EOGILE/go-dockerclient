@@ -17,3 +17,8 @@ msgctxt "permissions"
 msgid "create"
 msgstr "Créer"
 
+#: 
+msgctxt "permissions"
+msgid "modify"
+msgstr "Modifier"
+
