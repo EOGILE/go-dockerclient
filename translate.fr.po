@@ -26,3 +26,7 @@ msgstr "Modifier"
 msgid "create"
 msgstr "Créééééeer"
 
+#: 
+msgid "modify"
+msgstr "Modiiiiiiiiiiiifier"
+
