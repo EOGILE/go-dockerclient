@@ -3,6 +3,7 @@
         "create": "Créer ou modifier"
     },
     "permissions": {
-        "create": "Créer"
+        "create": "Créer",
+        "modify": "Modifier"
     }
 }
