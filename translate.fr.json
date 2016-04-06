@@ -1,0 +1,8 @@
+{
+    "permissions.account": {
+        "create": "Créer ou modifier"
+    },
+    "permissions": {
+        "create": "Créer"
+    }
+}
