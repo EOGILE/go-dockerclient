@@ -367,6 +367,8 @@ type CreateContainerOptions struct {
 //
 // See https://goo.gl/WxQzrr for more details.
 func (c *Client) CreateContainer(opts CreateContainerOptions) (*Container, error) {
+	fmt.Println("In create container, querystring : ", queryString(opts))
+	fmt.Println("In create container, Image : ", opts.Config.Image)
 	path := "/containers/create?" + queryString(opts)
 	resp, err := c.do(
 		"POST",

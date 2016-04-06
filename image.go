@@ -95,6 +95,8 @@ type ListImagesOptions struct {
 //
 // See https://goo.gl/xBe1u3 for more details.
 func (c *Client) ListImages(opts ListImagesOptions) ([]APIImages, error) {
+	fmt.Println("in ListImages, opts.All=", opts.All)
+	fmt.Println("in ListImages, queryString(opts)=", queryString(opts))
 	path := "/images/json?" + queryString(opts)
 	resp, err := c.do("GET", path, doOptions{})
 	if err != nil {
@@ -279,6 +281,7 @@ type PullImageOptions struct {
 //
 // See https://goo.gl/iJkZjD for more details.
 func (c *Client) PullImage(opts PullImageOptions, auth AuthConfiguration) error {
+	fmt.Println("In PullImage, queryString(&opts)=",queryString(&opts))
 	if opts.Repository == "" {
 		return ErrNoSuchImage
 	}
